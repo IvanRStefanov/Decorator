@@ -330,6 +330,8 @@ header li a {
 
 .our-work-card a{
     text-decoration: none;
+    width: 93%;
+    height: 94%;
 }
 
 .our-work-card a img{
@@ -346,6 +348,7 @@ header li a {
     position: relative;
     left: 228px;
     bottom: 280px;
+    width: 120px;
 }
 
 .best-paint-company{
