@@ -1,0 +1,697 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Sen', sans-serif;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    width: 1920px;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 95px;
+}
+
+.home-icon-wrapper{
+    font-size: 35px;
+    padding-left: 70px;
+    padding-top: 25px;
+}
+
+.home-icon-wrapper a {
+    text-decoration: none;
+    color: #1880a0;
+}
+
+.navigation-wrapper{
+    width: 1500px;
+}
+
+header ul {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding-right: 150px;
+
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+header li {
+    list-style-type: none;
+}
+
+.nav-icons{
+    color: #1880a0;
+}
+
+header li a {
+    text-decoration: none;
+    color: #373737;
+}
+
+.text-decorate{
+    color: #1880a0;
+    text-transform: uppercase;
+}
+
+.paint-your-home{
+    background-image: url(images/paint-roller.jpg);
+    width: 100vw;
+    height: 788px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paint-home{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.btns-align{
+    width: 100vw;
+    padding-top: 180px;
+    margin: 0 auto;
+}
+
+.btns-wrapper{
+    margin: 0 auto;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.left-arrow, .right-arrow{
+    width: 105px;
+    height: 98px;
+    border: none;
+    cursor: pointer;
+}
+
+.left-arrow{
+    background-color: white;
+    box-shadow: 0px 0px 78px -27px #000000;
+}
+
+.right-arrow{
+    background-color: #1880a0;
+    box-shadow: 0px 0px 78px -27px #000000;
+}
+
+.article-heading{
+    padding-right: 150px;
+    padding-top: 190px;
+    font-size: 62px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 77px;
+    margin-bottom: 0px;
+}
+
+.sub-heading{
+    font-size: 100px;
+    line-height: 58px;
+    color: #2c5679;
+}
+
+.article-description{
+    font-size: 17px;
+    padding-right: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 613px;
+    line-height: 35px;
+    font-weight: 800;
+}
+
+.btn-wrapper{
+    padding-right: 310px;
+}
+
+.read-more, .contact-us{
+    width: 213px;
+    height: 66px;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 700;
+    color: white;
+    border: none;
+}
+
+.read-more{
+    margin-right: 22px;
+    background-color: #ff0000;
+}
+
+.contact-us{
+    background-color: #1880a0;
+}
+
+.company-description{
+    margin: 0 auto;
+    padding-bottom: 144px;
+}
+
+.description-main-heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 170px;
+    margin-bottom: 35px;
+}
+
+.descriptions{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    width: 1150px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.descriptions:first-child{
+    padding-right: 100px;
+}
+
+
+.single-description:hover > i, .single-description:hover > h3{    
+    color: #1880a0;
+}
+
+.single-description{
+    width: 250px;
+}
+
+.first{
+    padding-left: 50px;
+}
+
+.second{
+    padding-left: 30px;
+}
+
+.single-description i {
+    font-size: 75px;
+}
+
+.single-description h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    width: 200px;
+    margin: 0;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+.description-content{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+.more-description{
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.085em;
+    font-weight: 700;
+    color: #1880a0;
+}
+
+.more-description i {
+    font-size: 20px;
+}
+
+.about-us{
+    display: flex;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.about-us-left{
+    width: 57.81vw;
+    background-color: #1880a0;
+    color: white;
+    height: 690px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.about-us-wrapper{
+    padding-top: 218px;
+    padding-right: 20px;
+    width: 695px;
+}
+
+.about-us-heading{
+    text-transform: uppercase;
+    font-size: 45px;
+    padding-bottom: 35px;
+}
+
+.about-us-content{
+    line-height: 26px;
+    padding-bottom: 50px;
+}
+
+.more-about-us{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+}
+
+.about-us-right{
+    width: 42.18vw;
+    height: 690px;
+    background-image: url(images/blue-paint-roller.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.our-work-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our-work-heading-div{
+    padding-top: 160px;
+    width: 50%;
+    position: absolute;
+    right: 583px;
+}
+
+.our-work-heading{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.our-work-slider{
+    display: flex;
+    margin-top: 272px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 133px;
+}
+
+.our-work-btns{
+    padding-left: 85px;
+    padding-top: 202px;
+    width: 265px;
+    margin-right: 26px;
+}
+
+.our-work-card-container{
+    display: flex;
+}
+
+.our-work-card{
+    display: flex;
+}
+
+.our-work-card a{
+    text-decoration: none;
+}
+
+.our-work-card a img{
+    margin-right: 46px;
+}
+
+.card-read-more{
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+
+    position: relative;
+    left: 228px;
+    bottom: 280px;
+}
+
+.best-paint-company{
+    background-image: url(images/best-paint-company.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 757px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+.best-paint-company-heading{
+    font-size: 45px;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 175px;
+}
+
+.best-paint-company-content{
+    padding-top: 120px;
+    padding-bottom: 110px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.read-more-best-paint{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 700;
+    padding: 28px 73px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.our-customers-wrapper{
+    border: 1px solid red;
+}
+
+ .our-customers{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    padding-bottom: 160px;
+}
+
+.our-customers-heading{
+    text-transform: uppercase;
+    font-size: 45px;
+    line-height: 27px;
+    padding-top: 174px;
+    padding-bottom: 87px;
+    text-align: center;
+}
+
+.our-customers-wrapper{
+    border: 1px solid red;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.our-customers-img img {
+    width: 123px;
+    margin-top: 36px;
+    margin-left: 28px;
+    border: 6px solid red;
+    border-radius: 100px;
+}
+
+.headings{
+    text-align: left;
+    width: 310px;
+    padding-top: 90px;
+    padding-left: 25px;
+    padding-bottom: 68px;
+}
+
+.our-customers-wrapper h4{
+    font-family: 'Poppins', sans-serif;
+    /* margin-right: 147px;
+    margin-top: 90px; */
+    font-size: 20px;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+.job-description{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 28px;
+    width: 204px;
+    color: red;
+}
+
+.customer-feedback{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 31px;
+    font-size: 17px;
+    text-align: left;
+    padding-left: 55px;
+    padding-right: 50px;
+    padding-top: 54px;
+} 
+
+.our-customers-slider{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.customer-left, .customer-right{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.customer-left > i, .customer-right > i{
+color: #0b0b0b;
+}
+
+.customer-left > i:hover, .customer-right > i:hover{
+    color: #f7ce5c;
+}
+
+.customer-left{
+    padding-left: 20px;
+}
+
+.custor-right{
+    padding-left: 11px;
+}
+
+.get-consulting{
+    font-family: 'Poppins', sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.getconsulting-heading, .get-counsulting-heading-cont{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.consulting-heading-wrapper{
+    padding-left: 20px;
+    line-height: 58px;
+}
+
+.getconsulting-heading{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.get-free-consulting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get-consulting-btn{
+    font-size: 17px;
+    text-decoration: none;
+    background-color: red;
+    letter-spacing: 0.08em;
+    color: white;
+    line-height: 56px;
+    margin-top: 23px;
+    margin-right: 8px;
+    padding: 5px 177px;
+    border-radius: 34px;
+}
+
+.random-content{
+    padding-top: 20px;
+    padding-left: 20px;
+    line-height: 28px;
+}
+
+footer{
+    /* height: 500px; */
+    background-color: #252525;
+}
+
+.footer-nav a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-nav li{
+    list-style-type: none;
+}
+
+.footer-nav li:first-child{
+    margin-right: -50px;
+}
+
+.footer-nav li:nth-child(2) {
+    margin-right: -46px;
+}
+
+.footer-nav li:last-child{
+    margin-right: 43px;
+}
+
+.footer-nav{
+    margin: 0 auto;
+    display: flex;
+    width: 870px;
+    justify-content: space-between;
+    padding-top: 75px;
+    padding-bottom: 68px;
+}
+
+.footer-icons:first-child{
+    padding-right: 15px;
+}
+
+.newsletter-wrapper{
+    width: 800px;
+    margin: 0 auto;    
+    margin-bottom: 40px;
+
+}
+.newsletter-heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-right: 46px;
+    text-align: center;
+    padding-bottom: 17px;
+}
+
+.form-label{
+    color: #5a5959;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.subscribe-form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 119px;
+}
+
+.email-input{
+    width: 508px;
+    font-size: 25px;
+    height: 35px;
+    margin-left: 2px;
+    margin-bottom: 35px;
+}
+
+.submit-btn{
+    font-family: 'Roboto', sans-serif;
+    width: 194px;
+    margin-left: 161px;
+    background-color: red;
+    padding: 7px;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    line-height: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.follow-us-wrapper{
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+    padding-bottom: 59px;
+}
+
+.follow-us-heading{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    color: white;
+    margin-right: 46px;
+    letter-spacing: 0.02em;
+    margin-bottom: 32px;
+}
+
+.social-networks{
+    width: 175px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: 433px;
+}
+
+.social-networks a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    text-decoration: none;
+}
+
+.social-networks li {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 66px;
+}
+
+
+.social-networks i {
+    font-size: 25px;
+    margin-top: 5px;
+    color: black;
+}
+
+.copyrigth{
+    background-color: white;
+    /* margin: 0 auto; */
+    width: 100vw;
+    text-align: center;
+}
+
+.copyrigth p {
+    padding: 32px;
+}
