@@ -1,9 +1,12 @@
+/* @import url(responsive.css); */
+
 body{
     margin: 0px;
     padding: 0px;
     font-family: 'Sen', sans-serif;
     box-sizing: border-box;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -28,8 +31,9 @@ header{
     color: #1880a0;
 }
 
-.navigation-wrapper{
-    width: 1500px;
+.navigation-wrapper {
+    max-width: 1500px;
+    width: 100%;
 }
 
 header ul {
@@ -469,7 +473,8 @@ header li a {
 .our-customers-slider{
     display: flex;
     align-items: center;
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -702,4 +707,8 @@ footer{
 
 .copyrigth p {
     padding: 32px;
+}
+
+.responsive{
+    display: none;
 }

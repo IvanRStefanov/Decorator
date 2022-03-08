@@ -1,0 +1,411 @@
+@media all and (max-width: 768px) {
+    header {
+        display: flex;
+        max-width: 768px;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-between;
+        height: 95px;
+    }
+
+    .home-icon-wrapper {
+        font-size: 25px;
+        padding-left: 50px;
+        padding-top: 25px;
+    }
+
+    .navigation-wrapper {
+        max-width: 640px;
+        width: 100%;
+    }
+
+    header ul {
+        padding: 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        margin: 0;
+        margin-right: 150px;
+        font-family: Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 28px;
+    }
+
+    header li a {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        text-decoration: none;
+        color: #373737;
+    }
+
+    .text-decorate {
+        display: none;
+    }
+
+
+    .paint-your-home {
+        background-image: url(images/paint-roller.jpg);
+        max-width: 100vw;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .article-heading {
+        padding-top: 42px;
+        text-align: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 42px;
+        margin-bottom: 0px;
+    }
+
+    .sub-heading {
+        font-size: 45px;
+        line-height: 11px;
+        color: #2c5679;
+    }
+
+    .paint-home {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .article-description {
+        font-size: 12px;
+        width: 400px;
+        text-align: center;
+        line-height: 20px;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+
+    .btn-wrapper {
+        padding-right: 140px;
+    }
+
+    .read-more {
+        margin-right: 21px;
+        background-color: #ff0000;
+        text-decoration: none;
+        padding: 10px 15px;
+    }
+
+    .contact-us {
+        background-color: #1880a0;
+        text-decoration: none;
+        padding: 10px 15px;
+        margin-right: 8px;
+    }
+
+    .btns-align {
+        width: 100vw;
+        padding-top: 0px;
+        margin: 0 auto;
+    }
+
+    .btns-wrapper {
+        margin: 0 auto;
+        /* padding-left: 15px; */
+        text-align: center;
+    }
+
+    .btns-wrapper img {
+        width: 15px;
+    }
+
+    .left-arrow, .right-arrow {
+        width: 55px;
+        height: 50px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .left-arrow {
+        background-color: white;
+        box-shadow: 0px 0px 8px 0px #000000;
+    }
+
+    .right-arrow {
+        background-color: #1880a0;
+        box-shadow: 0px 0px 8px 0px #000000;
+    }
+
+    .description-main-heading {
+        font-size: 25px;
+        padding-top: 80px;
+    }
+
+    .descriptions {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        text-align: center;
+    }
+
+    .first {
+        padding: 0px;
+    }
+
+    .single-description {
+        margin-top: 10px;
+    }
+
+    .single-description i {
+        font-size: 40px;
+    }
+
+    .single-description h3 {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .description-content {
+        font-size: 10px;
+        line-height: 15px;
+        padding-bottom: 0px;
+    }
+
+    .more-description {
+        font-size: 10px;
+    }
+
+    .more-description i {
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .second {
+        padding: 0;
+    }
+
+    .company-description {
+        padding-bottom: 50px;
+    }
+
+    .about-us-left {
+        display: none;
+    }
+
+    .about-us-right {
+        width: 100%;
+        box-shadow: inset 200px 0px 500px 90px #e6e1e1;
+    }
+
+    .responsive {
+        display: block;
+        text-align: right;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .about-us-heading {
+        text-align: center;
+    }
+
+    .about-us-content {
+        line-height: 26px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .about-our-company-more-wrapper {
+        text-align: center;
+    }
+
+    .more-about-us {
+        color: black;
+    }
+
+    .our-work-btns {
+        display: none;
+    }
+
+    .our-work-heading-div {
+        width: 100%;
+        padding-top: 100px;
+        text-align: center;
+        position: inherit;
+    }
+
+    .our-work-card-container {
+        flex-direction: column;
+    }
+
+    .our-work-slider {
+        margin-top: 120px;
+    }
+
+    .our-work-card a img {
+        margin: 0;
+        width: 450px;
+        height: auto;
+    }
+
+    .our-work-card:nth-child(1n + 2) {
+        display: none;
+    }
+
+    .our-work-card::before {
+        content: url(images/left-arrow.png);
+        padding: 10px;
+        display: flex;
+        margin: auto 0;
+        align-items: center;
+        background-color: white;
+        box-shadow: 0px 0px 9px 0px #080808;
+        position: relative;
+        left: 20px;
+
+    }
+
+    .our-work-card::after {
+        content: url(images/right-arrow.png);
+        padding: 10px;
+        display: flex;
+        margin: auto 0;
+        align-items: center;
+        background-color: #1880a0;
+        box-shadow: 0px 0px 9px 0px #080808;
+        position: relative;
+        right: 20px;
+    }
+
+    .card-read-more {
+        position: relative;
+        left: 170px;
+        bottom: 175px;
+        text-shadow: -3px 0px 5px black;
+    }
+
+    .best-paint-company {
+        background-size: contain;
+        height: 303px;
+    }
+
+    .best-paint-company-heading {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+    .best-paint-company-content {
+        width: 90%;
+        padding-top: 25px;
+        padding-bottom: 35px;
+        font-size: 14px;
+    }
+
+    .read-more-best-paint {
+        font-size: 14px;
+        line-height: 10px;
+        padding: 10px 25px;
+    }
+
+    .our-customers-heading {
+        font-size: 30px;
+        line-height: 20px;
+        padding-top: 80px;
+    }
+
+    .our-customers-wrapper {
+        display: flex;
+        width: 70%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 50px;
+    }
+
+    .our-customers-slider {
+        justify-content: space-between;
+    }
+
+    .customer-right {
+        padding-right: 20px;
+    }
+
+    .headings {
+        padding-bottom: 25px;
+        padding-top: 25px;
+        text-align: center;
+        width: auto;
+    }
+
+    .name {
+        text-align: center;
+    }
+
+    .job-description {
+        text-align: center;
+        width: auto;
+    }
+
+    .customer-feedback {
+        padding-top: 0px;
+        padding-bottom: 20px;
+        text-align: -webkit-center;
+    }
+
+    .get-consulting {
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .get-free-consulting {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .consulting-heading-wrapper {
+        line-height: 30px;
+        padding-left: 0px;
+        padding-right: 70px;
+    }
+
+    .getconsulting-heading {
+        font-size: 25px;
+    }
+
+    .get-counsulting-heading-cont {
+        font-size: 25px;
+    }
+
+    .get-consulting-btn {
+        padding: 2px 50px;
+    }
+
+    .random-content {
+        display: none;
+    }
+
+    .footer-nav {
+        max-width: 768px;
+        width: 80%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .follow-us-wrapper {
+        max-width: 768px;
+    }
+
+    .follow-us-heading{
+        margin-right: auto;
+    }
+
+    .social-networks {
+        max-width: 768px;
+        margin-right: auto;
+    }
+}
