@@ -1,5 +1,83 @@
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1840px) {
 
+    .our-work-card-read-more-wrapper {
+        max-width: 606px;
+        max-height: 466px;
+    }
+
+    .our-work-card-read-more-wrapper img:last-child {
+        height: 466px;
+    }
+
+}
+
+@media only screen and (max-width: 1710px) {
+
+    .width-wrapper {
+        max-width: 1500px;
+    }
+
+
+    .our-work-card-read-more-wrapper {
+        max-width: 542px;
+        max-height: 417px;
+    }
+
+    .our-work-card-read-more-wrapper img:last-child {
+        height: 417px;
+    }
+
+
+    .our-work-card-read-more-wrapper span {
+        bottom: 230px;
+        left: 144px;
+    }
+
+    .sub-form h4 {
+        margin-right: 0px;
+    }
+
+    .sub-form form {
+        margin-right: auto;
+    }
+
+    .social-networks {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 1570px) {
+    .width-wrapper {
+        max-width: 1400px;
+    }
+
+    .nav-wrapper {
+        max-width: 1200px;
+    }
+
+    .intro-content-wrapper {
+        margin-right: 270px;
+    }
+
+
+    .our-work-card-read-more-wrapper {
+        max-width: 460px;
+        max-height: 354px;
+    }
+
+    .our-work-card-read-more-wrapper img:last-child {
+        height: 354px;
+    }
+
+
+    .our-work-card-read-more-wrapper span {
+        bottom: 205px;
+        left: 122px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1385px) {
     .width-wrapper {
         max-width: 1000px;
         width: 100%;
@@ -17,6 +95,33 @@
     .nav-icons {
         font-size: 15px;
     }
+
+    .nav-item-wrapper span {
+        font-size: 15px;
+    }
+
+    .our-work-card-read-more-wrapper {
+        max-width: 410px;
+        max-height: 315px;
+    }
+
+    .our-work-card-read-more-wrapper img:last-child {
+        height: 315px;
+    }
+
+
+    .our-work-card-read-more-wrapper span {
+        bottom: 178px;
+        left: 114px;
+        font-size: 18px;
+    }
+
+    .best-compnay-description {
+        width: 960px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
 
     .nav-item-wrapper span {
         font-size: 12px;
@@ -82,7 +187,7 @@
     }
 
     .nav-item-wrapper span {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .nav-wrapper a {
