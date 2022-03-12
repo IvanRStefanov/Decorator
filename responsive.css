@@ -144,6 +144,19 @@
         margin-right: 25px;
     }
 
+    .our-work-card-read-more-wrapper {
+        max-width: 325px;
+        max-height: 251px;
+    }
+
+    .our-work-card-read-more-wrapper img:last-child {
+        height: 251px;
+    }
+
+    .our-work-card-read-more-wrapper span {
+        bottom: 140px;
+    }
+
     .best-compnay-description {
         width: 900px;
     }
