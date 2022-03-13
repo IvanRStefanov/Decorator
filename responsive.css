@@ -518,5 +518,91 @@
         flex-basis: 33.33%;
     }
 
+    .nav-item-wrapper span {
+        margin-top: 10px;
+    }
 
+    .intro-section {
+        height: 315px;
+    }
+
+    .intro-background img {
+        height: 315px;
+    }
+
+    .intro {
+        bottom: 314px;
+    }
+
+    .intro-content-wrapper {
+        width: 340px;
+    }
+
+    .intro-heading {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    .intro-description {
+        display: none;
+    }
+
+    .sub-intro-heading {
+        font-size: 37px;
+    }
+
+    .intro-btns-wrapper {
+        text-align: center;
+        height: auto;
+        margin-top: 35px;
+    }
+
+    .intro-btns-wrapper a+a {
+        margin: 0px;
+    }
+
+    .read-more-btn, .contact-us-btn {
+        padding: 10px 20px;
+        border-radius: 15px;
+        font-size: 15px;
+    }
+
+    .intro-slider-btns-wrapper {
+        top: 378px;
+    }
+
+    .what-we-do-cards-wrapper article~article {
+        margin: 0 10px;
+    }
+
+    .what-we-do-card {
+        text-align: center;
+        flex-basis: 33.33%;
+    }
+
+    .card-description {
+        display: none;
+    }
+
+    .card-read-more-wrapper {
+        margin-left: 0px;
+    }
+
+    .about-our-company-content {
+        width: 446px;
+        padding-bottom: 0px;
+    }
+
+    .about-our-company-heading {
+        font-size: 30px;
+    }
+
+    .about-our-company-description {
+        font-size: 13px;
+        line-height: 21px;
+        margin-right: 65px;
+        width: initial;
+        height: 135px;
+      }
 }
