@@ -193,8 +193,9 @@ header i {
     height: 788px;
 }
 
-.intro-slider-btns-wrapper a~a {
+.intro-slider-btns-wrapper a + a {
     margin-left: 5px;
+    margin-right: 5px;
 }
 
 .left-slider-btn, .right-slider-btn {
@@ -292,7 +293,7 @@ header i {
     margin-bottom: 137px;
 }
 
-.what-we-do-cards-wrapper article~article {
+.what-we-do-cards-wrapper article + article {
     margin: 0 -30px;
 }
 

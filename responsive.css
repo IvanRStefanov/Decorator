@@ -604,5 +604,71 @@
         margin-right: 65px;
         width: initial;
         height: 135px;
-      }
+    }
+
+    .best-company-heading {
+        font-size: 35px;
+    }
+
+    .best-compnay-description {
+        max-width: 600px;
+    }
+
+    .best-company a {
+        padding: 10px 20px;
+        border-radius: 15px;
+        font-size: 15px;
+    }
+
+    .best-compnay-description {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .our-sustomers-say h4 {
+        font-size: 35px;
+        margin-top: 85px;
+    }
+
+    .comment {
+        font-size: 11px;
+        line-height: 20px;
+        padding-right: 25px;
+        font-weight: 700;
+    }
+
+    .customer-desc-pic-name {
+        margin-right: 35px;
+    }
+
+    .consulting {
+        max-width: 699px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .consulting-top p {
+        font-size: 35px;
+    }
+
+    .consulting-top a {
+        padding: 20px 80px;
+    }
+
+    .company-info ul {
+        max-width: 500px;
+        font-size: 12px;
+    }
+
+    .company-info ul li {
+        flex-basis: 33.33%;
+    }
+
+    .company-info ul li a i {
+        font-size: 16px;
+    }
 }
+
+@media only screen and (max-width: 480px) {
+    
+} 
