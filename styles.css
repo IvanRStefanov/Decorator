@@ -82,8 +82,7 @@ header i {
 }
 
 .nav-item-wrapper {
-    max-width: 335px;
-    width: 100%;
+    flex-basis: 33.33%;
 }
 
 .nav-item-wrapper span {
