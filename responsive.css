@@ -252,8 +252,17 @@
     }
 
     .left-slider-btn, .right-slider-btn {
+        transform: none;
         width: 80px;
         height: 62px;
+    }
+
+    .left-slider-btn::after, .right-slider-btn::after {
+        position: relative;
+    }
+
+    .right-slider-btn:hover::after{
+        position: relative;
     }
 
     .intro-background img {
@@ -355,7 +364,12 @@
     }
 
     .our-work-slider-wrapper {
+        flex-direction: column-reverse;
         margin-top: 65px;
+    }
+
+    .our-work-card {
+        margin-right: 0px;
     }
 
     .our-work-heading {
@@ -363,7 +377,8 @@
     }
 
     .our-work-arrows-wrapper {
-        top: 270px;
+        all: unset;
+        margin-top: 20px;
     }
 
     .our-work-card:nth-child(1n+2) {
@@ -380,7 +395,7 @@
     }
 
     .our-work-card {
-        margin-right: 0px;
+        margin-left: auto;
     }
 
     .our-work-card img {
@@ -399,10 +414,6 @@
         display: block;
         max-width: 425px;
         max-height: 327px;
-    }
-
-    .our-work-arrows-wrapper {
-        left: 490px;
     }
 
     .best-company-background-wrapper {
@@ -669,6 +680,4 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
-    
-} 
+@media only screen and (max-width: 480px) {}
