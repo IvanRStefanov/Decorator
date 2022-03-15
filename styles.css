@@ -26,6 +26,10 @@ body {
     height: 95px;
 }
 
+.hamburger-nav{
+    display: none;
+}
+
 .nav {
     font-family: Helvetica, sans-serif;
     height: 100%;
