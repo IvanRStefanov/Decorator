@@ -748,7 +748,7 @@
         border-radius: 10px;
     }
 
-    .hamburger-nav ul a:hover i{
+    .hamburger-nav ul a:hover i {
         color: #fff;
     }
 
@@ -858,11 +858,11 @@
         margin: 0 auto;
     }
 
-    .our-sustomers-say{
+    .our-sustomers-say {
         display: none;
     }
 
-    .customer-slider{
+    .customer-slider {
         display: none;
     }
 
@@ -871,15 +871,19 @@
         margin-top: 50px;
     }
 
-    .consulting-top{
+    .consulting-top {
         flex-direction: column;
     }
 
-    .consulting-bottom{
+    .consulting-bottom {
         display: none;
     }
 
     .sub-form form {
         width: 75%;
+    }
+
+    .company-info ul {
+        max-width: 100%;
     }
 }
